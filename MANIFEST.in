@@ -1,0 +1,3 @@
+recursive-include pretix_fontpackfree/static *
+recursive-include pretix_fontpackfree/templates *
+recursive-include pretix_fontpackfree/locale *
