@@ -9,6 +9,9 @@ Font list
 * Roboto, Christian Robertson, Apache License 2.0
 * Lato, Lukasz Dziedzic, SIL Open Font License
 * Fira Sans, Mozilla, SIL Open Font License
+* Noto Sans, Google, SIL Open Font License
+* Droid Serif, Google, Apache License 2.0
+* Vollkorn, FRiTZe, SIL Open Font License
 
 Development setup
 -----------------
