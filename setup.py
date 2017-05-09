@@ -25,7 +25,7 @@ cmdclass = {
 
 setup(
     name='pretix-fontpack-free',
-    version='1.0.1',
+    version='1.0.2',
     description='Pack of free fonts for pretix\' ticket editor',
     long_description=long_description,
     url='https://github.com/pretix/pretix-fontpack-free',
