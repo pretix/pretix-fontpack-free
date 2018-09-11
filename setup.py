@@ -1,7 +1,6 @@
 import os
 from distutils.command.build import build
 
-from django.core import management
 from setuptools import setup, find_packages
 
 
@@ -12,20 +11,9 @@ except:
     long_description = ''
 
 
-class CustomBuild(build):
-    def run(self):
-        management.call_command('compilemessages', verbosity=1, interactive=False)
-        build.run(self)
-
-
-cmdclass = {
-    'build': CustomBuild
-}
-
-
 setup(
     name='pretix-fontpack-free',
-    version='1.0.2',
+    version='1.0.2.post1',
     description='Pack of free fonts for pretix\' ticket editor',
     long_description=long_description,
     url='https://github.com/pretix/pretix-fontpack-free',
@@ -36,7 +24,6 @@ setup(
     install_requires=[],
     packages=find_packages(exclude=['tests', 'tests.*']),
     include_package_data=True,
-    cmdclass=cmdclass,
     entry_points="""
 [pretix.plugin]
 pretix_fontpackfree=pretix_fontpackfree:PretixPluginMeta
