@@ -105,6 +105,28 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/lato-bolditalic-webfont.woff2",
             }
         },
+        "Montserrat": {
+            "regular": {
+                "truetype": basepath + "/montserrat-regular-webfont.ttf",
+                "woff": basepath + "/montserrat-regular-webfont.woff",
+                "woff2": basepath + "/montserrat-regular-webfont.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/montserrat-bold-webfont.ttf",
+                "woff": basepath + "/montserrat-bold-webfont.woff",
+                "woff2": basepath + "/montserrat-bold-webfont.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/montserrat-italic-webfont.ttf",
+                "woff": basepath + "/montserrat-italic-webfont.woff",
+                "woff2": basepath + "/montserrat-italic-webfont.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/montserrat-bolditalic-webfont.ttf",
+                "woff": basepath + "/montserrat-bolditalic-webfont.woff",
+                "woff2": basepath + "/montserrat-bolditalic-webfont.woff2",
+            }
+        },
         "Vollkorn": {
             "regular": {
                 "truetype": basepath + "/Vollkorn-Regular.ttf",
