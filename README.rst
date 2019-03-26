@@ -13,6 +13,7 @@ Font list
 * Noto Sans, Google, SIL Open Font License
 * Droid Serif, Google, Apache License 2.0
 * Vollkorn, FRiTZe, SIL Open Font License
+* Oswald, Vermon Adams, SIL Open Font License
 
 Development setup
 -----------------

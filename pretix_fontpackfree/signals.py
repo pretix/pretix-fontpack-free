@@ -105,6 +105,28 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/lato-bolditalic-webfont.woff2",
             }
         },
+        "Oswald": {
+            "regular": {
+                "truetype": basepath + "/oswald-regular-webfont.ttf",
+                "woff": basepath + "/oswald-regular-webfont.woff",
+                "woff2": basepath + "/oswald-regular-webfont.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/oswald-bold-webfont.ttf",
+                "woff": basepath + "/oswald-bold-webfont.woff",
+                "woff2": basepath + "/oswald-bold-webfont.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/oswald-regularitalic-webfont.ttf",
+                "woff": basepath + "/oswald-regularitalic-webfont.woff",
+                "woff2": basepath + "/oswald-regularitalic-webfont.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/oswald-bolditalic-webfont.ttf",
+                "woff": basepath + "/oswald-bolditalic-webfont.woff",
+                "woff2": basepath + "/oswald-bolditalic-webfont.woff2",
+            }
+        },
         "Montserrat": {
             "regular": {
                 "truetype": basepath + "/montserrat-regular-webfont.ttf",
