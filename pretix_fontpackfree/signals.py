@@ -43,6 +43,24 @@ def fontpack_free(sender, **kwargs):
                 "woff": basepath + "/Roboto-BoldItalic-webfont.woff",
             }
         },
+        "Roboto Condensed": {
+            "regular": {
+                "truetype": basepath + "/RobotoCondensed-Regular-webfont.ttf",
+                "woff": basepath + "/RobotoCondensed-Regular-webfont.woff",
+            },
+            "bold": {
+                "truetype": basepath + "/RobotoCondensed-Bold-webfont.ttf",
+                "woff": basepath + "/RobotoCondensed-Bold-webfont.woff",
+            },
+            "italic": {
+                "truetype": basepath + "/RobotoCondensed-Italic-webfont.ttf",
+                "woff": basepath + "/RobotoCondensed-Italic-webfont.woff",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/RobotoCondensed-BoldItalic-webfont.ttf",
+                "woff": basepath + "/RobotoCondensed-BoldItalic-webfont.woff",
+            }
+        },
         "Droid Serif": {
             "regular": {
                 "truetype": basepath + "/DroidSerif-Regular-webfont.ttf",
