@@ -157,9 +157,9 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/titillium-bold-webfont.woff2",
             },
             "italic": {
-                "truetype": basepath + "/titillium-italic-webfont.ttf",
-                "woff": basepath + "/titillium-italic-webfont.woff",
-                "woff2": basepath + "/titillium-italic-webfont.woff2",
+                "truetype": basepath + "/titillium-regularitalic-webfont.ttf",
+                "woff": basepath + "/titillium-regularitalic-webfont.woff",
+                "woff2": basepath + "/titillium-regularitalic-webfont.woff2",
             },
             "bolditalic": {
                 "truetype": basepath + "/titillium-bolditalic-webfont.ttf",
