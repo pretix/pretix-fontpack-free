@@ -14,6 +14,7 @@ Font list
 * Droid Serif, Google, Apache License 2.0
 * Vollkorn, FRiTZe, SIL Open Font License
 * Oswald, Vermon Adams, SIL Open Font License
+* Titillium, Accademia di Belle Arti Urbino, SIL Open Font License
 
 Development setup
 -----------------

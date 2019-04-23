@@ -145,6 +145,28 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/oswald-bolditalic-webfont.woff2",
             }
         },
+        "Titillium": {
+            "regular": {
+                "truetype": basepath + "/titillium-regular-webfont.ttf",
+                "woff": basepath + "/titillium-regular-webfont.woff",
+                "woff2": basepath + "/titillium-regular-webfont.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/titillium-bold-webfont.ttf",
+                "woff": basepath + "/titillium-bold-webfont.woff",
+                "woff2": basepath + "/titillium-bold-webfont.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/titillium-italic-webfont.ttf",
+                "woff": basepath + "/titillium-italic-webfont.woff",
+                "woff2": basepath + "/titillium-italic-webfont.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/titillium-bolditalic-webfont.ttf",
+                "woff": basepath + "/titillium-bolditalic-webfont.woff",
+                "woff2": basepath + "/titillium-bolditalic-webfont.woff2",
+            }
+        },
         "Montserrat": {
             "regular": {
                 "truetype": basepath + "/montserrat-regular-webfont.ttf",
