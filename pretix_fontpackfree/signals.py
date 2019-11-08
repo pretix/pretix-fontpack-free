@@ -11,18 +11,22 @@ def fontpack_free(sender, **kwargs):
             "regular": {
                 "truetype": basepath + "/NotoSans-Regular-webfont.ttf",
                 "woff": basepath + "/NotoSans-Regular-webfont.woff",
+                "woff2": basepath + "/NotoSans-Regular-webfont.woff2",
             },
             "bold": {
                 "truetype": basepath + "/NotoSans-Bold-webfont.ttf",
                 "woff": basepath + "/NotoSans-Bold-webfont.woff",
+                "woff2": basepath + "/NotoSans-Bold-webfont.woff2",
             },
             "italic": {
                 "truetype": basepath + "/NotoSans-Italic-webfont.ttf",
                 "woff": basepath + "/NotoSans-Italic-webfont.woff",
+                "woff2": basepath + "/NotoSans-Italic-webfont.woff2",
             },
             "bolditalic": {
                 "truetype": basepath + "/NotoSans-BoldItalic-webfont.ttf",
                 "woff": basepath + "/NotoSans-BoldItalic-webfont.woff",
+                "woff2": basepath + "/NotoSans-BoldItalic-webfont.woff2",
             }
         },
         "Roboto": {
