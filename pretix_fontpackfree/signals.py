@@ -215,4 +215,22 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/vollkorn-bolditalic-webfont.woff2",
             }
         },
+        "DejaVu Sans": {
+            "regular": {
+                "truetype": basepath + "/DejaVuSans-webfont.ttf",
+                "woff": basepath + "/DejaVuSans-webfont.woff",
+            },
+            "bold": {
+                "truetype": basepath + "/DejaVuSans-Bold-webfont.ttf",
+                "woff": basepath + "/DejaVuSans-Bold-webfont.woff",
+            },
+            "italic": {
+                "truetype": basepath + "/DejaVuSans-Oblique-webfont.ttf",
+                "woff": basepath + "/DejaVuSans-Onlique-webfont.woff",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/DejaVuSans-BoldOblique-webfont.ttf",
+                "woff": basepath + "/DejaVuSans-BoldOblique-webfont.woff",
+            }
+        },
     }

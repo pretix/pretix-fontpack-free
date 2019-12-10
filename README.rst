@@ -15,6 +15,7 @@ Font list
 * Vollkorn, FRiTZe, SIL Open Font License
 * Oswald, Vermon Adams, SIL Open Font License
 * Titillium, Accademia di Belle Arti Urbino, SIL Open Font License
+* DejaVu Sans, Bitstream Vera Fonts Copyright, Arev Fonts Copyright, Public Domain, see https://dejavu-fonts.github.io/License.html
 
 Development setup
 -----------------
