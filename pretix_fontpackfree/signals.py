@@ -193,6 +193,28 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/montserrat-bolditalic-webfont.woff2",
             }
         },
+        "El Messiri": {
+            "regular": {
+                "truetype": basepath + "/elmessiri-regular-webfont.ttf",
+                "woff": basepath + "/elmessiri-regular-webfont.woff",
+                "woff2": basepath + "/elmessiri-regular-webfont.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/elmessiri-bold-webfont.ttf",
+                "woff": basepath + "/elmessiri-bold-webfont.woff",
+                "woff2": basepath + "/elmessiri-bold-webfont.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/elmessiri-regular-webfont.ttf",
+                "woff": basepath + "/elmessiri-regular-webfont.woff",
+                "woff2": basepath + "/elmessiri-regular-webfont.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/elmessiri-bold-webfont.ttf",
+                "woff": basepath + "/elmessiri-bold-webfont.woff",
+                "woff2": basepath + "/elmessiri-bold-webfont.woff2",
+            }
+        },
         "Vollkorn": {
             "regular": {
                 "truetype": basepath + "/Vollkorn-Regular.ttf",
