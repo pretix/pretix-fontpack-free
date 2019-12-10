@@ -8,14 +8,13 @@ Font list
 
 * Roboto, Christian Robertson, Apache License 2.0
 * Lato, Lukasz Dziedzic, SIL Open Font License
-* Montserrat, The Montserrat Project Authors, SIL Open Font License
+* Montserrat, The Montserrat Project Authors, SIL Open Font SLicense
 * Fira Sans, Mozilla, SIL Open Font License
 * Noto Sans, Google, SIL Open Font License
 * Droid Serif, Google, Apache License 2.0
 * Vollkorn, FRiTZe, SIL Open Font License
 * Oswald, Vermon Adams, SIL Open Font License
 * Titillium, Accademia di Belle Arti Urbino, SIL Open Font License
-* El Messiri, Mohamed Gaber, SIL Open Font License
 
 Development setup
 -----------------
