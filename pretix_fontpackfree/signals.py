@@ -226,7 +226,7 @@ def fontpack_free(sender, **kwargs):
             },
             "italic": {
                 "truetype": basepath + "/DejaVuSans-Oblique-webfont.ttf",
-                "woff": basepath + "/DejaVuSans-Onlique-webfont.woff",
+                "woff": basepath + "/DejaVuSans-Oblique-webfont.woff",
             },
             "bolditalic": {
                 "truetype": basepath + "/DejaVuSans-BoldOblique-webfont.ttf",
