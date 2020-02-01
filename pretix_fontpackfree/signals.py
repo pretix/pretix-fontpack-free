@@ -246,7 +246,7 @@ def fontpack_free(sender, **kwargs):
                 "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
             )
         },
-        "Baloo Bhaijaan (Arabic, Vietnamese, Latin)": {
+        "Baloo Bhaijaan": {
             "regular": {
                 "truetype": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
                 "woff": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
@@ -272,7 +272,7 @@ def fontpack_free(sender, **kwargs):
                 "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
             )
         },
-        "Tajawal (Arabic, Latin)": {
+        "Tajawal": {
             "regular": {
                 "truetype": basepath + "/tajawal-v3-latin_arabic-regular.ttf",
                 "woff": basepath + "/tajawal-v3-latin_arabic-regular.woff",
