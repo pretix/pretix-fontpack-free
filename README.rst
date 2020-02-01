@@ -16,6 +16,8 @@ Font list
 * Oswald, Vermon Adams, SIL Open Font License
 * Titillium, Accademia di Belle Arti Urbino, SIL Open Font License
 * DejaVu Sans, Bitstream Vera Fonts Copyright, Arev Fonts Copyright, Public Domain, see https://dejavu-fonts.github.io/License.html
+* Baloo Bhaijaan, Ek Type (www.ektype.in), SIL Open Font License
+* Tajawal, Boutros International, SIL Open Font License
 
 Development setup
 -----------------

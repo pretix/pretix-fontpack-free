@@ -1,4 +1,5 @@
 from django.dispatch import receiver
+from django.utils.safestring import mark_safe
 
 from pretix.plugins.ticketoutputpdf.signals import register_fonts
 
@@ -27,7 +28,11 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/NotoSans-BoldItalic-webfont.ttf",
                 "woff": basepath + "/NotoSans-BoldItalic-webfont.woff",
                 "woff2": basepath + "/NotoSans-BoldItalic-webfont.woff2",
-            }
+            },
+            "sample": mark_safe(
+                "Съешь же ещё этих мягких французских булок да выпей чаю.<br>"
+                "Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός"
+            )
         },
         "Roboto": {
             "regular": {
@@ -81,7 +86,7 @@ def fontpack_free(sender, **kwargs):
             "bolditalic": {
                 "truetype": basepath + "/DroidSerif-BoldItalic-webfont.ttf",
                 "woff": basepath + "/DroidSerif-BoldItalic-webfont.woff",
-            }
+            },
         },
         "Fira Sans": {
             "regular": {
@@ -213,7 +218,7 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/Vollkorn-BoldItalic.ttf",
                 "woff": basepath + "/vollkorn-bolditalic-webfont.woff",
                 "woff2": basepath + "/vollkorn-bolditalic-webfont.woff2",
-            }
+            },
         },
         "DejaVu Sans": {
             "regular": {
@@ -231,6 +236,63 @@ def fontpack_free(sender, **kwargs):
             "bolditalic": {
                 "truetype": basepath + "/DejaVuSans-BoldOblique-webfont.ttf",
                 "woff": basepath + "/DejaVuSans-BoldOblique-webfont.woff",
-            }
+            },
+            "sample": mark_safe(
+                "Съешь же ещё этих мягких французских булок да выпей чаю.<br>"
+                "דג סקרן שט לו בים זך אך לפתע מצא חבורה נחמדה שצצה כך." 
+                "<br>"
+                "Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός"
+                "<br>"
+                "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
+            )
+        },
+        "Baloo Bhaijaan (Arabic, Vietnamese, Latin)": {
+            "regular": {
+                "truetype": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
+                "woff": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
+                "woff2": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
+                "woff": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
+                "woff2": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
+                "woff": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
+                "woff2": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
+                "woff": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
+                "woff2": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
+            },
+            "sample": mark_safe(
+                "Do bạch kim rất quý nên sẽ dùng để lắp vô xương<br>"
+                "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
+            )
+        },
+        "Tajawal (Arabic, Latin)": {
+            "regular": {
+                "truetype": basepath + "/tajawal-v3-latin_arabic-regular.ttf",
+                "woff": basepath + "/tajawal-v3-latin_arabic-regular.woff",
+                "woff2": basepath + "/tajawal-v3-latin_arabic-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/tajawal-v3-latin_arabic-700.ttf",
+                "woff": basepath + "/tajawal-v3-latin_arabic-700.woff",
+                "woff2": basepath + "/tajawal-v3-latin_arabic-700.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/tajawal-v3-latin_arabic-regular.ttf",
+                "woff": basepath + "/tajawal-v3-latin_arabic-regular.woff",
+                "woff2": basepath + "/tajawal-v3-latin_arabic-regular.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/tajawal-v3-latin_arabic-700.ttf",
+                "woff": basepath + "/tajawal-v3-latin_arabic-700.woff",
+                "woff2": basepath + "/tajawal-v3-latin_arabic-700.woff2",
+            },
+            "sample": "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
         },
     }
