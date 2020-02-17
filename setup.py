@@ -13,7 +13,7 @@ except:
 
 setup(
     name='pretix-fontpack-free',
-    version='1.4.0',
+    version='1.5.0',
     description='Pack of free fonts for pretix\' ticket editor',
     long_description=long_description,
     url='https://github.com/pretix/pretix-fontpack-free',
