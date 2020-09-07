@@ -295,4 +295,26 @@ def fontpack_free(sender, **kwargs):
             },
             "sample": "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
         },
+        "Poppins": {
+            "regular": {
+                "truetype": basepath + "/poppins-v12-latin-500.ttf",
+                "woff": basepath + "/poppins-v12-latin-500.woff",
+                "woff2": basepath + "/poppins-v12-latin-500.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/poppins-v12-latin-700.ttf",
+                "woff": basepath + "/poppins-v12-latin-700.woff",
+                "woff2": basepath + "/poppins-v12-latin-700.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/poppins-v12-latin-500italic.ttf",
+                "woff": basepath + "/poppins-v12-latin-500italic.woff",
+                "woff2": basepath + "/poppins-v12-latin-500italic.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/poppins-v12-latin-700italic.ttf",
+                "woff": basepath + "/poppins-v12-latin-700italic.woff",
+                "woff2": basepath + "/poppins-v12-latin-700italic.woff2",
+            },
+        }
     }
