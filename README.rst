@@ -18,6 +18,7 @@ Font list
 * DejaVu Sans, Bitstream Vera Fonts Copyright, Arev Fonts Copyright, Public Domain, see https://dejavu-fonts.github.io/License.html
 * Baloo Bhaijaan, Ek Type (www.ektype.in), SIL Open Font License
 * Tajawal, Boutros International, SIL Open Font License
+* Poppins, Indian Type Foundry, SIL Open Font License
 
 Development setup
 -----------------
