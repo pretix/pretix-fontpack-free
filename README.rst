@@ -19,6 +19,7 @@ Font list
 * Baloo Bhaijaan, Ek Type (www.ektype.in), SIL Open Font License
 * Tajawal, Boutros International, SIL Open Font License
 * Poppins, Indian Type Foundry, SIL Open Font License
+* Almarai, Boutros Fonts, SIL Open Font License
 * Ubuntu, Canonical, Ubuntu Font License 1.0
 
 Development setup

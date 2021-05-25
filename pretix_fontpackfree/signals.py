@@ -317,6 +317,29 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/poppins-v12-latin-700italic.woff2",
             },
         },
+        "Almarai": {
+            "regular": {
+                "truetype": basepath + "/almarai-v5-arabic-regular.ttf",
+                "woff": basepath + "/almarai-v5-arabic-regular.woff",
+                "woff2": basepath + "/almarai-v5-arabic-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/almarai-v5-arabic-800.ttf",
+                "woff": basepath + "/almarai-v5-arabic-800.woff",
+                "woff2": basepath + "/almarai-v5-arabic-800.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/almarai-v5-arabic-regular.ttf",
+                "woff": basepath + "/almarai-v5-arabic-regular.woff",
+                "woff2": basepath + "/almarai-v5-arabic-regular.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/almarai-v5-arabic-800.ttf",
+                "woff": basepath + "/almarai-v5-arabic-800.woff",
+                "woff2": basepath + "/almarai-v5-arabic-800.woff2",
+            },
+            "sample": "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
+        },
         "Ubuntu": {
             "regular": {
                 "truetype": basepath + "/ubuntu-v15-latin-ext_latin-regular.ttf",
