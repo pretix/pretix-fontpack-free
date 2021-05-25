@@ -316,5 +316,27 @@ def fontpack_free(sender, **kwargs):
                 "woff": basepath + "/poppins-v12-latin-700italic.woff",
                 "woff2": basepath + "/poppins-v12-latin-700italic.woff2",
             },
-        }
+        },
+        "Ubuntu": {
+            "regular": {
+                "truetype": basepath + "/ubuntu-v15-latin-ext_latin-regular.ttf",
+                "woff": basepath + "/ubuntu-v15-latin-ext_latin-regular.woff",
+                "woff2": basepath + "/ubuntu-v15-latin-ext_latin-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/ubuntu-v15-latin-ext_latin-700.ttf",
+                "woff": basepath + "/ubuntu-v15-latin-ext_latin-700.woff",
+                "woff2": basepath + "/ubuntu-v15-latin-ext_latin-700.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/ubuntu-v15-latin-ext_latin-italic.ttf",
+                "woff": basepath + "/ubuntu-v15-latin-ext_latin-italic.woff",
+                "woff2": basepath + "/ubuntu-v15-latin-ext_latin-italic.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/ubuntu-v15-latin-ext_latin-700italic.ttf",
+                "woff": basepath + "/ubuntu-v15-latin-ext_latin-700italic.woff",
+                "woff2": basepath + "/ubuntu-v15-latin-ext_latin-700italic.woff2",
+            },
+        },
     }
