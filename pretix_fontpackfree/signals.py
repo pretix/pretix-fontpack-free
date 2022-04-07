@@ -176,6 +176,52 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/titillium-bolditalic-webfont.woff2",
             }
         },
+        "Titillium Upright": {
+            "pdf_only": True,  # does not have italic scripts and doesn't look good as a full-page font
+            "regular": {
+                "truetype": basepath + "/titillium-regularupright-webfont.ttf",
+                "woff": basepath + "/titillium-regularupright-webfont.woff",
+                "woff2": basepath + "/titillium-regularupright-webfont.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/titillium-boldupright-webfont.ttf",
+                "woff": basepath + "/titillium-boldupright-webfont.woff",
+                "woff2": basepath + "/titillium-boldupright-webfont.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/titillium-regularupright-webfont.ttf",
+                "woff": basepath + "/titillium-regularupright-webfont.woff",
+                "woff2": basepath + "/titillium-regularupright-webfont.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/titillium-boldupright-webfont.ttf",
+                "woff": basepath + "/titillium-boldupright-webfont.woff",
+                "woff2": basepath + "/titillium-boldupright-webfont.woff2",
+            }
+        },
+        "Titillium Semibold Upright": {
+            "pdf_only": True,  # does not have italic scripts and doesn't look good as a full-page font
+            "regular": {
+                "truetype": basepath + "/titillium-semiboldupright-webfont.ttf",
+                "woff": basepath + "/titillium-semiboldupright-webfont.woff",
+                "woff2": basepath + "/titillium-semiboldupright-webfont.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/titillium-boldupright-webfont.ttf",
+                "woff": basepath + "/titillium-boldupright-webfont.woff",
+                "woff2": basepath + "/titillium-boldupright-webfont.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/titillium-semiboldupright-webfont.ttf",
+                "woff": basepath + "/titillium-semiboldupright-webfont.woff",
+                "woff2": basepath + "/titillium-semiboldupright-webfont.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/titillium-boldupright-webfont.ttf",
+                "woff": basepath + "/titillium-boldupright-webfont.woff",
+                "woff2": basepath + "/titillium-boldupright-webfont.woff2",
+            }
+        },
         "Montserrat": {
             "regular": {
                 "truetype": basepath + "/montserrat-regular-webfont.ttf",
@@ -360,6 +406,28 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/ubuntu-v15-latin-ext_latin-700italic.ttf",
                 "woff": basepath + "/ubuntu-v15-latin-ext_latin-700italic.woff",
                 "woff2": basepath + "/ubuntu-v15-latin-ext_latin-700italic.woff2",
+            },
+        },
+        "Space Mono": {
+            "regular": {
+                "truetype": basepath + "/space-mono-v10-latin-ext_latin-regular.ttf",
+                "woff": basepath + "/space-mono-v10-latin-ext_latin-regular.woff",
+                "woff2": basepath + "/space-mono-v10-latin-ext_latin-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/space-mono-v10-latin-ext_latin-700.ttf",
+                "woff": basepath + "/space-mono-v10-latin-ext_latin-700.woff",
+                "woff2": basepath + "/space-mono-v10-latin-ext_latin-700.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/space-mono-v10-latin-ext_latin-italic.ttf",
+                "woff": basepath + "/space-mono-v10-latin-ext_latin-italic.woff",
+                "woff2": basepath + "/space-mono-v10-latin-ext_latin-italic.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/space-mono-v10-latin-ext_latin-700italic.ttf",
+                "woff": basepath + "/space-mono-v10-latin-ext_latin-700italic.woff",
+                "woff2": basepath + "/space-mono-v10-latin-ext_latin-700italic.woff2",
             },
         },
     }
