@@ -10,7 +10,7 @@ class PluginApp(AppConfig):
         author = 'Raphael Michel'
         description = 'Pack of free fonts for pretix\' ticket editor'
         visible = False
-        version = '1.7.0'
+        version = '1.8.0'
 
     def ready(self):
         from . import signals  # NOQA
