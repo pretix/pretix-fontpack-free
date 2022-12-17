@@ -1,5 +1,6 @@
 import os
 from distutils.command.build import build
+from pretix_fontpackfree import __version__
 
 from setuptools import setup, find_packages
 
@@ -13,7 +14,7 @@ except:
 
 setup(
     name='pretix-fontpack-free',
-    version='1.8.0',
+    version=__version__,
     description='Pack of free fonts for pretix\' ticket editor',
     long_description=long_description,
     url='https://github.com/pretix/pretix-fontpack-free',
