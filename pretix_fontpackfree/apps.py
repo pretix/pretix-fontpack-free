@@ -1,6 +1,5 @@
 from django.apps import AppConfig
 from . import __version__
-        compatibility = "pretix>=4.16.0"
 
 
 class PluginApp(AppConfig):
