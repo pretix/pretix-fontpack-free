@@ -34,6 +34,31 @@ def fontpack_free(sender, **kwargs):
                 "Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός"
             )
         },
+        "Noto Sans Japanese": {
+            "regular": {
+                "truetype": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.ttf",
+                "woff": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff",
+                "woff2": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.ttf",
+                "woff": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff",
+                "woff2": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.ttf",
+                "woff": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff",
+                "woff2": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.ttf",
+                "woff": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff",
+                "woff2": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff2",
+            },
+            "sample": mark_safe(
+                "あなたに会えて光栄です。"
+            )
+        },
         "Roboto": {
             "regular": {
                 "truetype": basepath + "/Roboto-Regular.ttf",
