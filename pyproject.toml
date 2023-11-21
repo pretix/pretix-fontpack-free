@@ -1,7 +1,7 @@
 [project]
 name = "pretix-fontpack-free"
 dynamic = ["version"]
-description = "Pack of free fonts for pretix' ticket editor"
+description = "Pack of free fonts for pretix"
 readme = "README.rst"
 requires-python = ">=3.9"
 license = {file = "LICENSE"}
