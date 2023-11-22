@@ -1,7 +1,7 @@
 Fontpack: Free fonts
 ====================
 
-This is a plugin for `pretix`_ that adds fonts to the PDF editor.
+This is a plugin for `pretix`_ that adds free fonts to the ticket shop, PDF editor and PDF invoices.
 
 Font list
 ---------
