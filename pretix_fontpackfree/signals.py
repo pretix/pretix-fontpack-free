@@ -59,6 +59,48 @@ def fontpack_free(sender, **kwargs):
                 "あなたに会えて光栄です。"
             )
         },
+        "Noto Sans Traditional Chinese": {
+            "regular": {
+                "truetype": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
+                "woff2": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.ttf",
+                "woff2": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
+                "woff2": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.ttf",
+                "woff2": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.woff2",
+            },
+            "sample": mark_safe(
+                "我真歡喜佮你熟似"
+            )
+        },
+        "Noto Sans Simplified Chinese": {
+            "regular": {
+                "truetype": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
+                "woff2": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.ttf",
+                "woff2": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.woff2",
+            },
+            "italic": {
+                "truetype": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
+                "woff2": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.ttf",
+                "woff2": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.woff2",
+            },
+            "sample": mark_safe(
+                "真是难以置信！"
+            )
+        },
         "Roboto": {
             "regular": {
                 "truetype": basepath + "/Roboto-Regular.ttf",
