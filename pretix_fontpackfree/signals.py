@@ -1,12 +1,11 @@
 from django.dispatch import receiver
 from django.utils.safestring import mark_safe
-
 from pretix.plugins.ticketoutputpdf.signals import register_fonts
 
 
 @receiver(register_fonts, dispatch_uid="fontpack_free_fonts")
 def fontpack_free(sender, **kwargs):
-    basepath = 'pretix_fontpackfree'
+    basepath = "pretix_fontpackfree"
     return {
         "Noto Sans": {
             "regular": {
@@ -32,74 +31,96 @@ def fontpack_free(sender, **kwargs):
             "sample": mark_safe(
                 "Съешь же ещё этих мягких французских булок да выпей чаю.<br>"
                 "Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός"
-            )
+            ),
         },
         "Noto Sans Japanese": {
             "regular": {
-                "truetype": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.ttf",
-                "woff": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff",
-                "woff2": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff2",
+                "truetype": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.ttf",
+                "woff": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff",
+                "woff2": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff2",
             },
             "bold": {
-                "truetype": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.ttf",
-                "woff": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff",
-                "woff2": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff2",
+                "truetype": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.ttf",
+                "woff": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff",
+                "woff2": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff2",
             },
             "italic": {
-                "truetype": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.ttf",
-                "woff": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff",
-                "woff2": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff2",
+                "truetype": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.ttf",
+                "woff": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff",
+                "woff2": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-regular.woff2",
             },
             "bolditalic": {
-                "truetype": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.ttf",
-                "woff": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff",
-                "woff2": basepath + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff2",
+                "truetype": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.ttf",
+                "woff": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff",
+                "woff2": basepath
+                + "/noto-sans-jp-v52-cyrillic_japanese_latin_latin-ext_vietnamese-700.woff2",
             },
-            "sample": mark_safe(
-                "あなたに会えて光栄です。"
-            )
+            "sample": mark_safe("あなたに会えて光栄です。"),
         },
         "Noto Sans Traditional Chinese": {
             "regular": {
-                "truetype": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
-                "woff2": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
+                "truetype": basepath
+                + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
+                "woff2": basepath
+                + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
             },
             "bold": {
-                "truetype": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.ttf",
-                "woff2": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.woff2",
+                "truetype": basepath
+                + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.ttf",
+                "woff2": basepath
+                + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.woff2",
             },
             "italic": {
-                "truetype": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
-                "woff2": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
+                "truetype": basepath
+                + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
+                "woff2": basepath
+                + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
             },
             "bolditalic": {
-                "truetype": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.ttf",
-                "woff2": basepath + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.woff2",
+                "truetype": basepath
+                + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.ttf",
+                "woff2": basepath
+                + "/noto-sans-tc-v35-chinese-traditional_cyrillic_latin_latin-ext_vietnamese-700.woff2",
             },
-            "sample": mark_safe(
-                "我真歡喜佮你熟似"
-            )
+            "sample": mark_safe("我真歡喜佮你熟似"),
         },
         "Noto Sans Simplified Chinese": {
             "regular": {
-                "truetype": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
-                "woff2": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
+                "truetype": basepath
+                + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
+                "woff2": basepath
+                + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
             },
             "bold": {
-                "truetype": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.ttf",
-                "woff2": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.woff2",
+                "truetype": basepath
+                + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.ttf",
+                "woff2": basepath
+                + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.woff2",
             },
             "italic": {
-                "truetype": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
-                "woff2": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
+                "truetype": basepath
+                + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.ttf",
+                "woff2": basepath
+                + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-regular.woff2",
             },
             "bolditalic": {
-                "truetype": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.ttf",
-                "woff2": basepath + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.woff2",
+                "truetype": basepath
+                + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.ttf",
+                "woff2": basepath
+                + "/noto-sans-sc-v36-chinese-simplified_cyrillic_latin_latin-ext_vietnamese-700.woff2",
             },
-            "sample": mark_safe(
-                "真是难以置信！"
-            )
+            "sample": mark_safe("真是难以置信！"),
         },
         "Roboto": {
             "regular": {
@@ -117,7 +138,7 @@ def fontpack_free(sender, **kwargs):
             "bolditalic": {
                 "truetype": basepath + "/Roboto-BoldItalic.ttf",
                 "woff": basepath + "/Roboto-BoldItalic-webfont.woff",
-            }
+            },
         },
         "Roboto Condensed": {
             "regular": {
@@ -135,7 +156,7 @@ def fontpack_free(sender, **kwargs):
             "bolditalic": {
                 "truetype": basepath + "/RobotoCondensed-BoldItalic-webfont.ttf",
                 "woff": basepath + "/RobotoCondensed-BoldItalic-webfont.woff",
-            }
+            },
         },
         "Droid Serif": {
             "regular": {
@@ -175,7 +196,7 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/firasans-bolditalic-webfont.ttf",
                 "woff": basepath + "/firasans-bolditalic-webfont.woff",
                 "woff2": basepath + "/firasans-bolditalic-webfont.woff2",
-            }
+            },
         },
         "Lato": {
             "regular": {
@@ -197,7 +218,7 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/Lato-BoldItalic.ttf",
                 "woff": basepath + "/lato-bolditalic-webfont.woff",
                 "woff2": basepath + "/lato-bolditalic-webfont.woff2",
-            }
+            },
         },
         "Oswald": {
             "regular": {
@@ -219,7 +240,7 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/oswald-bolditalic-webfont.ttf",
                 "woff": basepath + "/oswald-bolditalic-webfont.woff",
                 "woff2": basepath + "/oswald-bolditalic-webfont.woff2",
-            }
+            },
         },
         "Titillium": {
             "regular": {
@@ -241,7 +262,7 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/titillium-bolditalic-webfont.ttf",
                 "woff": basepath + "/titillium-bolditalic-webfont.woff",
                 "woff2": basepath + "/titillium-bolditalic-webfont.woff2",
-            }
+            },
         },
         "Titillium Upright": {
             "pdf_only": True,  # does not have italic scripts and doesn't look good as a full-page font
@@ -264,7 +285,7 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/titillium-boldupright-webfont.ttf",
                 "woff": basepath + "/titillium-boldupright-webfont.woff",
                 "woff2": basepath + "/titillium-boldupright-webfont.woff2",
-            }
+            },
         },
         "Titillium Semibold Upright": {
             "pdf_only": True,  # does not have italic scripts and doesn't look good as a full-page font
@@ -287,7 +308,7 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/titillium-boldupright-webfont.ttf",
                 "woff": basepath + "/titillium-boldupright-webfont.woff",
                 "woff2": basepath + "/titillium-boldupright-webfont.woff2",
-            }
+            },
         },
         "Montserrat": {
             "regular": {
@@ -309,7 +330,7 @@ def fontpack_free(sender, **kwargs):
                 "truetype": basepath + "/montserrat-bolditalic-webfont.ttf",
                 "woff": basepath + "/montserrat-bolditalic-webfont.woff",
                 "woff2": basepath + "/montserrat-bolditalic-webfont.woff2",
-            }
+            },
         },
         "Vollkorn": {
             "regular": {
@@ -352,38 +373,50 @@ def fontpack_free(sender, **kwargs):
             },
             "sample": mark_safe(
                 "Съешь же ещё этих мягких французских булок да выпей чаю.<br>"
-                "דג סקרן שט לו בים זך אך לפתע מצא חבורה נחמדה שצצה כך." 
+                "דג סקרן שט לו בים זך אך לפתע מצא חבורה נחמדה שצצה כך."
                 "<br>"
                 "Ταχίστη αλώπηξ βαφής ψημένη γη, δρασκελίζει υπέρ νωθρού κυνός"
                 "<br>"
                 "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
-            )
+            ),
         },
         "Baloo Bhaijaan": {
             "regular": {
-                "truetype": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
-                "woff": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
-                "woff2": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
+                "truetype": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
+                "woff": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
+                "woff2": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
             },
             "bold": {
-                "truetype": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
-                "woff": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
-                "woff2": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
+                "truetype": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
+                "woff": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
+                "woff2": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
             },
             "italic": {
-                "truetype": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
-                "woff": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
-                "woff2": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
+                "truetype": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
+                "woff": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
+                "woff2": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
             },
             "bolditalic": {
-                "truetype": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
-                "woff": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
-                "woff2": basepath + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
+                "truetype": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.ttf",
+                "woff": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff",
+                "woff2": basepath
+                + "/baloo-bhaijaan-v6-latin-ext_vietnamese_latin_arabic-regular.woff2",
             },
             "sample": mark_safe(
                 "Do bạch kim rất quý nên sẽ dùng để lắp vô xương<br>"
                 "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
-            )
+            ),
         },
         "Tajawal": {
             "regular": {
@@ -406,7 +439,7 @@ def fontpack_free(sender, **kwargs):
                 "woff": basepath + "/tajawal-v3-latin_arabic-700.woff",
                 "woff2": basepath + "/tajawal-v3-latin_arabic-700.woff2",
             },
-            "sample": "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
+            "sample": "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق",
         },
         "Poppins": {
             "regular": {
@@ -451,7 +484,7 @@ def fontpack_free(sender, **kwargs):
                 "woff": basepath + "/almarai-v5-arabic-800.woff",
                 "woff2": basepath + "/almarai-v5-arabic-800.woff2",
             },
-            "sample": "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق"
+            "sample": "نص حكيم له سر قاطع وذو شأن عظيم مكتوب على ثوب أخضر ومغلف بجلد أزرق",
         },
         "Ubuntu": {
             "regular": {
