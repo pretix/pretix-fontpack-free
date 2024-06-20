@@ -443,9 +443,9 @@ def fontpack_free(sender, **kwargs):
         },
         "Poppins": {
             "regular": {
-                "truetype": basepath + "/poppins-v12-latin-500.ttf",
-                "woff": basepath + "/poppins-v12-latin-500.woff",
-                "woff2": basepath + "/poppins-v12-latin-500.woff2",
+                "truetype": basepath + "/poppins-v12-latin-regular.ttf",
+                "woff": basepath + "/poppins-v12-latin-regular.woff",
+                "woff2": basepath + "/poppins-v12-latin-regular.woff2",
             },
             "bold": {
                 "truetype": basepath + "/poppins-v12-latin-700.ttf",
@@ -453,9 +453,9 @@ def fontpack_free(sender, **kwargs):
                 "woff2": basepath + "/poppins-v12-latin-700.woff2",
             },
             "italic": {
-                "truetype": basepath + "/poppins-v12-latin-500italic.ttf",
-                "woff": basepath + "/poppins-v12-latin-500italic.woff",
-                "woff2": basepath + "/poppins-v12-latin-500italic.woff2",
+                "truetype": basepath + "/poppins-v12-latin-italic.ttf",
+                "woff": basepath + "/poppins-v12-latin-italic.woff",
+                "woff2": basepath + "/poppins-v12-latin-italic.woff2",
             },
             "bolditalic": {
                 "truetype": basepath + "/poppins-v12-latin-700italic.ttf",
