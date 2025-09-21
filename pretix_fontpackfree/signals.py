@@ -178,24 +178,24 @@ def fontpack_free(sender, **kwargs):
         },
         "Fira Sans": {
             "regular": {
-                "truetype": basepath + "/firasans-regular-webfont.ttf",
-                "woff": basepath + "/firasans-regular-webfont.woff",
-                "woff2": basepath + "/firasans-regular-webfont.woff2",
+                "truetype": basepath + "/FiraSans-Regular.ttf",
+                "woff": basepath + "/FiraSans-Regular.woff",
+                "woff2": basepath + "/FiraSans-Regular.woff2",
             },
             "bold": {
-                "truetype": basepath + "/firasans-bold-webfont.ttf",
-                "woff": basepath + "/firasans-bold-webfont.woff",
-                "woff2": basepath + "/firasans-bold-webfont.woff2",
+                "truetype": basepath + "/FiraSans-Bold.ttf",
+                "woff": basepath + "/FiraSans-Bold.woff",
+                "woff2": basepath + "/FiraSans-Bold.woff2",
             },
             "italic": {
-                "truetype": basepath + "/firasans-italic-webfont.ttf",
-                "woff": basepath + "/firasans-italic-webfont.woff",
-                "woff2": basepath + "/firasans-italic-webfont.woff2",
+                "truetype": basepath + "/FiraSans-Italic.ttf",
+                "woff": basepath + "/FiraSans-Italic.woff",
+                "woff2": basepath + "/FiraSans-Italic.woff2",
             },
             "bolditalic": {
-                "truetype": basepath + "/firasans-bolditalic-webfont.ttf",
-                "woff": basepath + "/firasans-bolditalic-webfont.woff",
-                "woff2": basepath + "/firasans-bolditalic-webfont.woff2",
+                "truetype": basepath + "/FiraSans-BoldItalic.ttf",
+                "woff": basepath + "/FiraSans-BoldItalic.woff",
+                "woff2": basepath + "/FiraSans-BoldItalic.woff2",
             },
         },
         "Lato": {
