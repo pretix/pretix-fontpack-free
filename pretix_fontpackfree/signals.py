@@ -122,6 +122,33 @@ def fontpack_free(sender, **kwargs):
             },
             "sample": mark_safe("真是难以置信！"),
         },
+        "Noto Sans Thai": {
+            "regular": {
+                "truetype": basepath
+                + "/noto-sans-thai-v29-latin_latin-ext_thai-regular.ttf",
+                "woff2": basepath
+                + "/noto-sans-thai-v29-latin_latin-ext_thai-regular.woff2",
+            },
+            "bold": {
+                "truetype": basepath
+                + "/noto-sans-thai-v29-latin_latin-ext_thai-700.ttf",
+                "woff2": basepath
+                + "/noto-sans-thai-v29-latin_latin-ext_thai-700.woff2",
+            },
+            "italic": {
+                "truetype": basepath
+                + "/noto-sans-thai-v29-latin_latin-ext_thai-regular.ttf",
+                "woff2": basepath
+                + "/noto-sans-thai-v29-latin_latin-ext_thai-regular.woff2",
+            },
+            "bolditalic": {
+                "truetype": basepath
+                + "/noto-sans-thai-v29-latin_latin-ext_thai-700.ttf",
+                "woff2": basepath
+                + "/noto-sans-thai-v29-latin_latin-ext_thai-700.woff2",
+            },
+            "sample": mark_safe("สุนัขจิ้งจอกสีม่วง"),
+        },
         "Roboto": {
             "regular": {
                 "truetype": basepath + "/Roboto-Regular.ttf",
