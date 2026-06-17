@@ -271,24 +271,24 @@ def fontpack_free(sender, **kwargs):
         },
         "Titillium": {
             "regular": {
-                "truetype": basepath + "/titillium-regular-webfont.ttf",
-                "woff": basepath + "/titillium-regular-webfont.woff",
-                "woff2": basepath + "/titillium-regular-webfont.woff2",
+                "truetype": basepath + "/titillium-web-v19-latin_latin-ext-regular.ttf",
+                "woff": basepath + "/titillium-web-v19-latin_latin-ext-regular.woff",
+                "woff2": basepath + "/titillium-web-v19-latin_latin-ext-regular.woff2",
             },
             "bold": {
-                "truetype": basepath + "/titillium-bold-webfont.ttf",
-                "woff": basepath + "/titillium-bold-webfont.woff",
-                "woff2": basepath + "/titillium-bold-webfont.woff2",
+                "truetype": basepath + "/titillium-web-v19-latin_latin-ext-700.ttf",
+                "woff": basepath + "/titillium-web-v19-latin_latin-ext-700.woff",
+                "woff2": basepath + "/titillium-web-v19-latin_latin-ext-700.woff2",
             },
             "italic": {
-                "truetype": basepath + "/titillium-regularitalic-webfont.ttf",
-                "woff": basepath + "/titillium-regularitalic-webfont.woff",
-                "woff2": basepath + "/titillium-regularitalic-webfont.woff2",
+                "truetype": basepath + "/titillium-web-v19-latin_latin-ext-italic.ttf",
+                "woff": basepath + "/titillium-web-v19-latin_latin-ext-italic.woff",
+                "woff2": basepath + "/titillium-web-v19-latin_latin-ext-italic.woff2",
             },
             "bolditalic": {
-                "truetype": basepath + "/titillium-bolditalic-webfont.ttf",
-                "woff": basepath + "/titillium-bolditalic-webfont.woff",
-                "woff2": basepath + "/titillium-bolditalic-webfont.woff2",
+                "truetype": basepath + "/titillium-web-v19-latin_latin-ext-700italic.ttf",
+                "woff": basepath + "/titillium-web-v19-latin_latin-ext-700italic.woff",
+                "woff2": basepath + "/titillium-web-v19-latin_latin-ext-700italic.woff2",
             },
         },
         "Titillium Upright": {
