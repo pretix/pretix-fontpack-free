@@ -223,6 +223,25 @@
 			"woff2": "Space-Mono_v17_bolditalic.woff2"
 		}
 	},
+	"Titillium": {
+		"pdf_only": false,
+		"regular": {
+			"truetype": "Titillium-Web_v19_regular.ttf",
+			"woff2": "Titillium-Web_v19_regular.woff2"
+		},
+		"bold": {
+			"truetype": "Titillium-Web_v19_bold.ttf",
+			"woff2": "Titillium-Web_v19_bold.woff2"
+		},
+		"italic": {
+			"truetype": "Titillium-Web_v19_italic.ttf",
+			"woff2": "Titillium-Web_v19_italic.woff2"
+		},
+		"bolditalic": {
+			"truetype": "Titillium-Web_v19_bolditalic.ttf",
+			"woff2": "Titillium-Web_v19_bolditalic.woff2"
+		}
+	},
 	"Noto Sans Japanese": {
 		"pdf_only": false,
 		"sample": "\u3042\u306a\u305f\u306b\u4f1a\u3048\u3066\u5149\u6804\u3067\u3059\u3002",

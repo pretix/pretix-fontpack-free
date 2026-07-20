@@ -29,6 +29,7 @@ FONTS = [
     Font(family_name="Almarai", display_name="Almarai"),
     Font(family_name="Ubuntu", display_name="Ubuntu"),
     Font(family_name="Space Mono", display_name="Space Mono"),
+    Font(family_name="Titillium Web", display_name="Titillium"),
     Font(
         family_name="Noto Sans JP",
         display_name="Noto Sans Japanese",

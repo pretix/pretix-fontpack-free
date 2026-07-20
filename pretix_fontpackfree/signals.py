@@ -55,28 +55,6 @@ def fontpack_free(sender, **kwargs):
                 "woff": BASEPATH + "/DroidSerif-BoldItalic-webfont.woff",
             },
         },
-        "Titillium": {
-            "regular": {
-                "truetype": BASEPATH + "/titillium-web-v19-latin_latin-ext-regular.ttf",
-                "woff": BASEPATH + "/titillium-web-v19-latin_latin-ext-regular.woff",
-                "woff2": BASEPATH + "/titillium-web-v19-latin_latin-ext-regular.woff2",
-            },
-            "bold": {
-                "truetype": BASEPATH + "/titillium-web-v19-latin_latin-ext-700.ttf",
-                "woff": BASEPATH + "/titillium-web-v19-latin_latin-ext-700.woff",
-                "woff2": BASEPATH + "/titillium-web-v19-latin_latin-ext-700.woff2",
-            },
-            "italic": {
-                "truetype": BASEPATH + "/titillium-web-v19-latin_latin-ext-italic.ttf",
-                "woff": BASEPATH + "/titillium-web-v19-latin_latin-ext-italic.woff",
-                "woff2": BASEPATH + "/titillium-web-v19-latin_latin-ext-italic.woff2",
-            },
-            "bolditalic": {
-                "truetype": BASEPATH + "/titillium-web-v19-latin_latin-ext-700italic.ttf",
-                "woff": BASEPATH + "/titillium-web-v19-latin_latin-ext-700italic.woff",
-                "woff2": BASEPATH + "/titillium-web-v19-latin_latin-ext-700italic.woff2",
-            },
-        },
         "Titillium Upright": {
             "pdf_only": True,  # does not have italic scripts and doesn't look good as a full-page font
             "regular": {
