@@ -13,7 +13,7 @@ class PluginApp(AppConfig):
         description = "Pack of free fonts for pretix"
         visible = False
         version = __version__
-        compatibility = "pretix>=4.16.0"
+        compatibility = "pretix>=2026.8.0.dev0"
 
     def ready(self):
         from . import signals  # NOQA
